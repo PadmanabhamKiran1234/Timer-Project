@@ -1,0 +1,49 @@
+body {
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.timer-container {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 10px #0000001a;
+}
+
+.timer {
+  margin: 20px 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button.start {
+  color: #fff;
+  background-color: #28a745;
+}
+
+button.end {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+/*# sourceMappingURL=index.1303bb05.css.map */
